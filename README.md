@@ -20,9 +20,9 @@ cargo install grafgrep
 # returns 'and should be ubberusted'
 grafgrep rust file.txt
 
-# returns '
-# Rust is a good tool'
-# and should be ubberrusted
+# returns
+# 'Rust is a good tool
+# and should be ubberrusted'
 IGNORE_CASE=1 grafgrep rust file.txt
 ```
 
